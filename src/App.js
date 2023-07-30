@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react';
-import { getForecast, weatherConditionsData } from './data/data';
+import { weatherConditionsData } from './data/data';
 import { getWeather } from './api/apiManager';
 import moment from 'moment';
 import * as WiIcons from 'react-icons/wi';
